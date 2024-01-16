@@ -1,0 +1,41 @@
+/* Set the background color of the quiz */
+#quiz {
+    background-color: #f2f2f2;
+}
+
+/* Style the text of the quiz */
+#quiz h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #333;
+}
+
+/* Style the questions and answers */
+.question {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Style the hover effect of the submit button */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style the results div */
+#results {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
